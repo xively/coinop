@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/rickshaw.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script type="text/javascript" src="//use.typekit.net/rth6fba.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+<body>
+  <header class="app-header">
+    <div class="contain">
+      <div class="xively-logo"></div>
+      <h1>Coin Machine App</h1>
+    </div>
+  </header>
+
+  <nav class="app-nav">
+    <div class="contain clearfix">
+      <h3>Navigation</h3>
+      <ul>
+        <li>
+          <a href="index.html">Revenue Recognition</a>
+        </li>
+        <li>
+          Active Environmental Monitor
+        </li>
+        <li>
+          <a href="calculator.html">Replenishment Calculator</a>
+        </li>
+      </ul>  
+    </div>
+  </nav>
+
+  <div class="app-main contain">
+    <div class="monitor-values">
+      <p>Number of people that <strong>walked past</strong> - <span id="walked-past"></span></p>
+      <p>Number of people that <strong>stood for 5 seconds</strong> - <span id="stood"></span></p>
+    </div>
+
+    <div class="graph clearfix">
+      <div id="legend_container" class="legend">
+        <div id="legend"></div>
+      </div>
+
+      <div id="chart" class="monitor-graph"></div>
+    </div>
+  </div>
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+  <script src="js/vendor/d3.v2.js"></script>
+  <script src="js/vendor/rickshaw.min.js"></script>
+  <script src="js/vendor/xivelyjs-1.0.3.min.js"></script>
+  <script src="js/vendor/moment.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/monitor.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/rickshaw.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script type="text/javascript" src="//use.typekit.net/rth6fba.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+<body>
+  <header class="app-header">
+    <div class="contain">
+      <div class="xively-logo"></div>
+      <h1>Coin Machine App</h1>
+    </div>
+  </header>
+
+  <nav class="app-nav">
+    <div class="contain clearfix">
+      <h3>Navigation</h3>
+      <ul>
+        <li>
+          <a href="index.html">Revenue Recognition</a>
+        </li>
+        <li>
+          <a href="monitor.html">Active Environmental Monitor</a>
+        </li>
+        <li>
+          Replenishment Calculator
+        </li>
+      </ul> 
+    </div>
+  </nav>
+
+  <div class="app-main contain">
+    <h4 class="calc-sentence">Based on current data, machine at location <em id="location">...</em> will need replenishment on or before <strong>29 May 2013</strong>.</h4>
+
+    <p class="js-calc-button"><a href="#" id="calc-button">Click here to add this machine to the route scheduler</a></p>
+    <p style="display:none" class="js-calc-msg">Added to route for replenishment.</p>
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+  <script src="js/vendor/xivelyjs-1.0.3.min.js"></script>
+  <script src="js/vendor/moment.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/calculator.js"></script>
+</body>
+</html>
