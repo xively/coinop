@@ -1,9 +1,9 @@
 (function($, window){
 
-  xively.setKey('hhxC0a74hsDp5dVnVA127oTYV81jedhJsB5axKqvsIWTrUdx');
+  xively.setKey('fqC5dtaOFBByR1yQgtu3fdrUqWkiCmzHWDIogAwh56AwipDZ');
 
   // Replace with your own values  
-  var feedID        = 1574193013,     // Feed ID  
+  var feedID        = 767865973,     // Feed ID  
       selector      = "#total-coins";   // Your element on the page  
 
   var traverse = function (value) {
