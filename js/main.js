@@ -7,7 +7,7 @@
       selector      = "#total-coins";   // Your element on the page  
 
   var traverse = function (value) {
-    return value * .25;
+    return (value * .25).toFixed(2);
   };
 
   var formatTime = function (value) {
